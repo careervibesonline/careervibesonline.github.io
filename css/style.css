@@ -1669,3 +1669,38 @@ padding-bottom: 20px;
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
+
+
+/* Slider */
+section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow {
+    left: 15%;
+    z-index: 999;
+}
+section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {
+    right: 15%;
+    z-index: 999;
+}
+section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow:before {
+    content: '\f053';
+    font-family: 'FontAwesome';
+    z-index: 999;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    padding: 12px 15px;
+    width: 40px;
+    height: 40px;
+}
+section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow:before {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    z-index: 999;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    padding: 12px 15px;
+    width: 40px;
+    height: 40px;
+}
