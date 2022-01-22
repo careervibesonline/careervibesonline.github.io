@@ -1672,19 +1672,22 @@ padding-bottom: 20px;
 
 
 /* Slider */
+@media(max-width: 767px){
+    .header {position: unset;}
+}
 section#hm_sld {
     position: relative;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow {
     position: absolute;
     top: 40%;
-    left: 15%;
+    left: 5%;
     z-index: 999;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {
     position: absolute;
     top: 40%;
-    right: 15%;
+    right: 5%;
     z-index: 999;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow:before {

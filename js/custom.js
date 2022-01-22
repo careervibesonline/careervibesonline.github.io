@@ -371,6 +371,8 @@ $(function () {
 	$('.custom_sld_wrap').slick({
 		infinite: true,
 		autoplay: true,
+		prevArrow: $('.cust_sld_prev')
+		nextArrow: $('..cust_sld_next')
         autoplaySpeed: 2000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
