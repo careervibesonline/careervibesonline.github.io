@@ -368,5 +368,15 @@ $(function () {
 		interval: 5000
 	});
 
+	$('.custom_sld_wrap').slick({
+		infinite: true,
+		autoplay: true,
+        autoplaySpeed: 2000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true
+	});
+
 
 });
