@@ -1734,6 +1734,7 @@ section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow:befor
     section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow,
     section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {display: none !important;}
     img.ft_img_cut {max-width: 120px;margin: auto;}
+    #faq .fq_cnt h2 {line-height: 45px;font-size: 40px;}
     .about {padding-top: 50px;}
     .about .about-box p {padding: 10px 0 40px 0;}
 }
