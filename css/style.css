@@ -1500,7 +1500,7 @@ border-radius:50px;
  .footer {
      background: #0f0824;
      
-     margin-top: 125px;
+     /*margin-top: 125px;*/
 }
  .footer h2 {
     color: #fff;
@@ -1672,11 +1672,6 @@ padding-bottom: 20px;
 
 
 /* Slider */
-@media(max-width: 767px){
-    .header {position: unset;padding-bottom: 34px !important;}
-    section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow,
-    section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {display: none;}
-}
 section#hm_sld {
     position: relative;
 }
@@ -1719,4 +1714,23 @@ section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow:befor
     padding: 12px 15px;
     width: 40px;
     height: 40px;
+}
+
+/* FAQ */
+#faq {
+    padding: 40px 0;
+}
+#faq .fq_cnt h2 {
+    padding: 0;
+    font-weight: bold;
+    color: #f4b328;
+    line-height: 55px;
+    font-size: 50px;
+}
+
+
+@media(max-width: 767px){
+    .header {position: unset;padding-bottom: 34px !important;}
+    section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow,
+    section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {display: none !important;}
 }
