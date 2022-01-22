@@ -1673,8 +1673,9 @@ padding-bottom: 20px;
 
 /* Slider */
 @media(max-width: 767px){
-    .header {position: unset;}
-    .header {padding-bottom: 34px;}
+    .header {position: unset;padding-bottom: 34px !important;}
+    section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow,
+    section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {display: none;}
 }
 section#hm_sld {
     position: relative;
