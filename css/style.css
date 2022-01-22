@@ -1672,11 +1672,18 @@ padding-bottom: 20px;
 
 
 /* Slider */
+section#hm_sld {
+    position: relative;
+}
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow {
+    position: absolute;
+    top: 40%;
     left: 15%;
     z-index: 999;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {
+    position: absolute;
+    top: 40%;
     right: 15%;
     z-index: 999;
 }
