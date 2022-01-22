@@ -1733,4 +1733,5 @@ section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow:befor
     .header {position: unset;padding-bottom: 34px !important;}
     section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow,
     section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {display: none !important;}
+    img.ft_img_cut {max-width: 120px;margin: auto;}
 }
