@@ -1044,10 +1044,10 @@ background-repeat: no-repeat;
      background:url(../images/banner2.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     padding-bottom: 50px;
+     /*padding-bottom: 50px;*/
 }
  .header {
-     position: fixed;
+     /*position: fixed;*/
      z-index: 999;
      width: 100%;
      padding: 20px 0px 0px 0px;
@@ -1674,6 +1674,7 @@ padding-bottom: 20px;
 /* Slider */
 @media(max-width: 767px){
     .header {position: unset;}
+    .header {padding-bottom: 34px;}
 }
 section#hm_sld {
     position: relative;
