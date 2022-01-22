@@ -1680,15 +1680,19 @@ section#hm_sld {
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 5%;
     z-index: 999;
+    font-size: 0;
+    background-color: transparent;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-next.slick-arrow {
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 5%;
     z-index: 999;
+    font-size: 0;
+    background-color: transparent;
 }
 section#hm_sld .custom_sld_wrap.slick-slider button.slick-prev.slick-arrow:before {
     content: '\f053';
